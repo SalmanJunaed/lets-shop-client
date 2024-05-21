@@ -53,6 +53,7 @@ const Category = () => {
                     </SwiperSlide>
                 </Swiper>
             </div>
+            
         </div>
     )
 }
