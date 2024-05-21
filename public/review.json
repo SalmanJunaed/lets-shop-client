@@ -1,0 +1,242 @@
+[
+    {
+        "productId": "E1001",
+        "userName": "John Doe",
+        "email": "john.doe@example.com",
+        "rating": 5,
+        "likes": 10,
+        "review": "Amazing laptop! Super fast and lightweight, perfect for my needs."
+    },
+    {
+        "productId": "E1001",
+        "userName": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "rating": 4,
+        "likes": 7,
+        "review": "Great performance but the battery life could be better."
+    },
+    {
+        "productId": "E1001",
+        "userName": "Alice Brown",
+        "email": "alice.brown@example.com",
+        "rating": 5,
+        "likes": 12,
+        "review": "The display is stunning and it's very portable. Highly recommend!"
+    },
+    {
+        "productId": "F1002",
+        "userName": "Emily Clark",
+        "email": "emily.clark@example.com",
+        "rating": 5,
+        "likes": 9,
+        "review": "Absolutely love this dress! The fit is perfect and the color is vibrant."
+    },
+    {
+        "productId": "F1002",
+        "userName": "Sophia Johnson",
+        "email": "sophia.johnson@example.com",
+        "rating": 4,
+        "likes": 8,
+        "review": "Beautiful dress but the fabric is a bit delicate. Handle with care."
+    },
+    {
+        "productId": "F1002",
+        "userName": "Liam Williams",
+        "email": "liam.williams@example.com",
+        "rating": 5,
+        "likes": 11,
+        "review": "Perfect for formal occasions. Got many compliments!"
+    },
+    {
+        "productId": "F2001",
+        "userName": "Olivia Martinez",
+        "email": "olivia.martinez@example.com",
+        "rating": 4,
+        "likes": 5,
+        "review": "Very comfortable sofa, fits well in my living room."
+    },
+    {
+        "productId": "F2001",
+        "userName": "Ethan Davis",
+        "email": "ethan.davis@example.com",
+        "rating": 3,
+        "likes": 4,
+        "review": "The sofa is nice, but the delivery took longer than expected."
+    },
+    {
+        "productId": "F2001",
+        "userName": "Isabella Miller",
+        "email": "isabella.miller@example.com",
+        "rating": 4,
+        "likes": 6,
+        "review": "Good quality and stylish design. A bit pricey, though."
+    },
+    {
+        "productId": "K1001",
+        "userName": "Michael Wilson",
+        "email": "michael.wilson@example.com",
+        "rating": 5,
+        "likes": 14,
+        "review": "Excellent mixer! Makes baking so much easier and faster."
+    },
+    {
+        "productId": "K1001",
+        "userName": "Ava Moore",
+        "email": "ava.moore@example.com",
+        "rating": 4,
+        "likes": 9,
+        "review": "Works well, but it's a bit noisy at high speeds."
+    },
+    {
+        "productId": "K1001",
+        "userName": "William Taylor",
+        "email": "william.taylor@example.com",
+        "rating": 5,
+        "likes": 13,
+        "review": "Very versatile and powerful. A must-have for any kitchen."
+    },
+    {
+        "productId": "E1002",
+        "userName": "Charlotte Anderson",
+        "email": "charlotte.anderson@example.com",
+        "rating": 5,
+        "likes": 15,
+        "review": "Love this smartwatch! Great features and very easy to use."
+    },
+    {
+        "productId": "E1002",
+        "userName": "Henry Thomas",
+        "email": "henry.thomas@example.com",
+        "rating": 4,
+        "likes": 10,
+        "review": "Excellent smartwatch, but the battery life could be improved."
+    },
+    {
+        "productId": "E1002",
+        "userName": "Amelia Jackson",
+        "email": "amelia.jackson@example.com",
+        "rating": 5,
+        "likes": 12,
+        "review": "Perfect for tracking my fitness goals. Highly recommend!"
+    },
+    {
+        "productId": "F1003",
+        "userName": "James White",
+        "email": "james.white@example.com",
+        "rating": 4,
+        "likes": 7,
+        "review": "Good quality running shoes, very comfortable for long runs."
+    },
+    {
+        "productId": "F1003",
+        "userName": "Mia Harris",
+        "email": "mia.harris@example.com",
+        "rating": 5,
+        "likes": 9,
+        "review": "Love these shoes! Great support and stylish design."
+    },
+    {
+        "productId": "F1003",
+        "userName": "Benjamin Martin",
+        "email": "benjamin.martin@example.com",
+        "rating": 4,
+        "likes": 6,
+        "review": "Comfortable and lightweight. Good value for the price."
+    },
+    {
+        "productId": "F2002",
+        "userName": "Evelyn Thompson",
+        "email": "evelyn.thompson@example.com",
+        "rating": 5,
+        "likes": 11,
+        "review": "Beautiful dining table set, perfect for family dinners."
+    },
+    {
+        "productId": "F2002",
+        "userName": "Alexander Garcia",
+        "email": "alexander.garcia@example.com",
+        "rating": 4,
+        "likes": 8,
+        "review": "Good quality, but the assembly instructions could be clearer."
+    },
+    {
+        "productId": "F2002",
+        "userName": "Harper Martinez",
+        "email": "harper.martinez@example.com",
+        "rating": 5,
+        "likes": 10,
+        "review": "Excellent purchase! The table is sturdy and looks great."
+    },
+    {
+        "productId": "K1002",
+        "userName": "Daniel Robinson",
+        "email": "daniel.robinson@example.com",
+        "rating": 4,
+        "likes": 7,
+        "review": "Makes great coffee, but the carafe could be better designed."
+    },
+    {
+        "productId": "K1002",
+        "userName": "Ella Lewis",
+        "email": "ella.lewis@example.com",
+        "rating": 5,
+        "likes": 12,
+        "review": "Love this coffee maker! Brews quickly and tastes great."
+    },
+    {
+        "productId": "K1002",
+        "userName": "Noah Walker",
+        "email": "noah.walker@example.com",
+        "rating": 4,
+        "likes": 8,
+        "review": "Good value for the price. Easy to use and clean."
+    },
+    {
+        "productId": "E1003",
+        "userName": "Grace Hall",
+        "email": "grace.hall@example.com",
+        "rating": 5,
+        "likes": 14,
+        "review": "Amazing sound quality and very comfortable to wear."
+    },
+    {
+        "productId": "E1003",
+        "userName": "Lucas Allen",
+        "email": "lucas.allen@example.com",
+        "rating": 4,
+        "likes": 11,
+        "review": "Great headphones, but the battery life could be better."
+    },
+    {
+        "productId": "E1003",
+        "userName": "Chloe Young",
+        "email": "chloe.young@example.com",
+        "rating": 5,
+        "likes": 13,
+        "review": "Noise cancellation is excellent. Best headphones I've ever owned."
+    },
+    {
+        "productId": "F1004",
+        "userName": "Mason King",
+        "email": "mason.king@example.com",
+        "rating": 5,
+        "likes": 12,
+        "review": "Stylish and high-quality leather jacket. Worth every penny."
+    },
+    {
+        "productId": "F1004",
+        "userName": "Avery Wright",
+        "email": "avery.wright@example.com",
+        "rating": 4,
+        "likes": 9,
+        "review": "Great jacket, but the fit is a bit snug. Order a size up."
+    },
+    {
+        "productId": "F1004",
+        "userName": "Ethan Lopez",
+        "email": "ethan.lopez@example.com",
+        "rating": 5,
+        "likes": 11,
+        "review": "High-quality leather and very comfortable. Highly recommend!"
+    }
+]
