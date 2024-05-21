@@ -1,11 +1,18 @@
-import Footer from "../Shared/Footer/Footer";
-
-
+import Banner from "../Home/Banner/Banner"
+import About from "./About/About";
+import CTA from "./CTA/CTA";
+import Category from "./Category/Category";
+import Contact from "./Contact/Contact";
+import Service from "./Service/Service";
 const Home = () => {
     return (
         <div>
-            <h1 className="text-4xl text-center">This is Home page</h1>
-            <Footer></Footer>
+            <Banner></Banner>
+            <Service></Service>
+            <Category></Category>
+            <About></About>
+            <CTA></CTA>
+            <Contact></Contact>
         </div>
     );
 };
