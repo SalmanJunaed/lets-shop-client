@@ -26,7 +26,7 @@ const ProductBanner = () => {
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content flex">
                     <div className=" flex-1"></div>
-                    <div className="max-w-3xl flex-1">
+                    <div className="max-w-3xl lg:flex-1">
                         <h1 className="mb-5 text-5xl font-bold">Explore Our <br /> Top Products</h1>
                         <br />
                         <p className="mb-5 text-xl">

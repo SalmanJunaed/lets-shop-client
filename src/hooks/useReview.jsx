@@ -4,7 +4,8 @@ const useReview = () => {
     const [reviews, setReviews] = useState([]);
     const [loading, setLoading] = useState(true);
     useEffect(() => {
-        fetch("review.json")
+        // fetch("review.json")
+        fetch("http://localhost:5000/reviews")
             .then((res) => res.json())
             .then((data) => {
                 setReviews(data)
