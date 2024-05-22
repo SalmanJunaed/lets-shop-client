@@ -12,19 +12,22 @@ const Featured = () => {
     return (
         <div className="py-4 pb-8">
             <div>
-                <h1 className="text-4xl font-bold text-center text-red-500">
-                    This is Featured section inside Home Page
+                <h1 className="text-4xl font-bold text-center text-gray-400">
+                    Our Featured Products
                 </h1>
             </div>
+            <br />
             <div>
-                <label className="input input-bordered flex items-center gap-2">
+                <label className="input input-bordered flex items-center gap-2 max-w-60">
                     <input type="text" className="grow " placeholder="Search" />
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-4 h-4 opacity-70"><path fillRule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clipRule="evenodd" /></svg>
                 </label>
+                <br />
                 <div role="tablist" className="tabs tabs-lifted">
                     {/* Tab-1 */}
-                    <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Electronics" />
+                    <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Electronics" checked />
                     <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
+                        {/* Product Map  */}
                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4" >
                         { 
                             electronics.map(product=><ProductCardInfo 
@@ -35,9 +38,10 @@ const Featured = () => {
                         </div>
                     </div>
                     {/* Tab-2 */}
-                    <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Fashion" checked />
+                    <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Fashion" />
                     <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4" >
+                        {/* Product Map  */}
+                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4" >
                         { 
                             fashion.map(product=><ProductCardInfo 
                                 key={product.productId} 
@@ -49,7 +53,8 @@ const Featured = () => {
                     {/* Tab-3 */}
                     <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Furniture" />
                     <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4" >
+                        {/* Product Map  */}
+                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4" >
                         { 
                             furniture.map(product=><ProductCardInfo 
                                 key={product.productId} 
@@ -61,7 +66,8 @@ const Featured = () => {
                     {/* Tab-4 */}
                     <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Kitchen" />
                     <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4" >
+                        {/* Product Map  */}
+                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4" >
                         { 
                             kitchen.map(product=><ProductCardInfo 
                                 key={product.productId} 

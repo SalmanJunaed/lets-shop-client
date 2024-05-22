@@ -9,9 +9,9 @@ Currently, two official plugins are available:
 
 
 
-# Client Git link:
+# Client Git link: https://github.com/SalmanJunaed/lets-shop-client
 
-# Server git link:
+# Server git link: https://github.com/SalmanJunaed/lets-shop-server
 
 # Live link:
 
