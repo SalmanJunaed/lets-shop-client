@@ -2,7 +2,7 @@ const CTA = () => {
     return (
         <div>
             <div
-                className="hero min-h-80"
+                className="hero min-h-80 bg-fixed"
                 style={{ backgroundImage: "url(https://i.ibb.co/b587wK5/Tech-bg.jpg)", }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">

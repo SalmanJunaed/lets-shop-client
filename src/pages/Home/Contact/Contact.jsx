@@ -2,10 +2,10 @@
 
 const Contact = () => {
     return (
-        <div>
+        <div className="bg-blue-50 py-2">
             <h1 className='py-8 mt-12 text-4xl text-center font-bold uppercase text-green-600'> Get in Touch with Us </h1>
-            <section id="contact" className="my-8">
-            <div className="hero min-h-fit bg-blue-200 py-16">
+            <section id="contact" className="my-2">
+            <div className="hero min-h-fit  py-10">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className=" flex-1 text-center lg:text-left px-12">
                         <h1 className="text-5xl font-bold text-center text-yellow-500">Contact us!</h1>

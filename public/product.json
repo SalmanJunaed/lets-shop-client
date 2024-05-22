@@ -158,5 +158,53 @@
         "description": "A stylish brown leather jacket that adds a touch of elegance to any outfit.",
         "availability": "In Stock",
         "specification": "Material: Genuine Leather, Size: L, Color: Brown"
+    },
+    {
+        "productId": "E1004",
+        "image": "https://example.com/images/tablet1.jpg",
+        "product_name": "Android Tablet",
+        "price": 299.99,
+        "category": "Electronics",
+        "brand": "TabTech",
+        "color": "White",
+        "size": "10 inch",
+        "rating": 4.3,
+        "type": "NewArrival",
+        "quantity": 22,
+        "description": "A versatile 10-inch Android tablet with a high-resolution display.",
+        "availability": "In Stock",
+        "specification": "Processor: Octa-core, RAM: 4GB, Storage: 64GB, Color: White"
+    },
+    {
+        "productId": "F1005",
+        "image": "https://example.com/images/sunglasses1.jpg",
+        "product_name": "Polarized Sunglasses",
+        "price": 49.99,
+        "category": "Fashion",
+        "brand": "SunGuard",
+        "color": "Black",
+        "size": "One Size",
+        "rating": 4.5,
+        "type": "BestSale",
+        "quantity": 50,
+        "description": "Stylish polarized sunglasses that offer excellent UV protection.",
+        "availability": "In Stock",
+        "specification": "Lens: Polarized, Frame: Plastic, Color: Black"
+    },
+    {
+        "productId": "F2003",
+        "image": "https://example.com/images/bed1.jpg",
+        "product_name": "Queen Size Bed",
+        "price": 899.99,
+        "category": "Furniture",
+        "brand": "SleepWell",
+        "color": "Beige",
+        "size": "Queen",
+        "rating": 4.7,
+        "type": "Featured",
+        "quantity": 8,
+        "description": "A luxurious queen size bed with a comfortable mattress.",
+        "availability": "Limited Stock",
+        "specification": "Material: Wood and Fabric, Dimensions: 80 x 60 x 14 inches, Color: Beige"
     }
 ]

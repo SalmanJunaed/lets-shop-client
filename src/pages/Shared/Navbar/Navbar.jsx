@@ -3,12 +3,14 @@ import { Link } from "react-router-dom"
 const Navbar = () => {
     const navOptions = <>
         <li>
-            <a><Link to='/'>Home</Link></a>
+            <a className="font-bold hover:text-white"><Link to='/'>Home</Link></a>
+        </li>
+        <li>
+            <a className="font-bold hover:text-white"><Link to='/product'>Products</Link></a>
         </li>
     </>
     return (
         <div>
-            
             <div className="navbar fixed z-10 bg-opacity-70 bg-base-100 max-w-screen-xl mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -29,7 +31,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
+                    <a className="btn">Login</a>
                 </div>
             </div>
         </div>
