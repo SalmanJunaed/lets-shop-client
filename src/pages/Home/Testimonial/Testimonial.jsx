@@ -2,18 +2,23 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css"
 import "swiper/css/navigation"
 import { Navigation } from "swiper/modules"
-import { useEffect, useState } from "react"
+
+// import { useEffect, useState } from "react"
 
 import { Rating } from "@smastrom/react-rating"
 import '@smastrom/react-rating/style.css'
 
+import useReview from "../../../hooks/useReview"
+
 const Testimonial = () => {
-    const [reviews, setReviews] = useState([])
-    useEffect(() => {
-        fetch("review.json")
-            .then((res) => res.json())
-            .then((data) => setReviews(data))
-    }, [])
+    // const [reviews, setReviews] = useState([])
+    // useEffect(() => {
+    //     fetch("review.json")
+    //         .then((res) => res.json())
+    //         .then((data) => setReviews(data))
+    // }, [])
+    
+    const [reviews] = useReview() 
     return (
         <section className="py-12 pb-6 bg-red-50">
             <div className="">
