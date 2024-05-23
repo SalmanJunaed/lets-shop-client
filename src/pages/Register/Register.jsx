@@ -4,17 +4,14 @@ import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
 import Swal from "sweetalert2";
 
+
 const Register = () => {
-    const {
-        register,
-        handleSubmit,
-        // watch,
-        reset,
-        formState: { errors },
-    } = useForm()
+    const { register, handleSubmit, reset, formState: { errors }, } = useForm()
+    // const axiosPublic = useAxiosPublic();
     const {createUser, updateUserProfile} = useContext(AuthContext);
     const navigate = useNavigate();
     const onSubmit = (data) => {
+        
         console.log(data);
         createUser(data.email, data.password)
         .then(result => {
@@ -22,7 +19,16 @@ const Register = () => {
             console.log(loggedUser);
             updateUserProfile(data.name)
             .then(() =>{
-                console.log('userProfile Info updated')
+                // const userInfo = {
+                //     name: data.name,
+                //     email: data.email,
+                //     address: data.address,
+                //     dob: data.dob,
+                //     userType: data.userType,
+                // }
+                // console.log(userInfo);
+                //axiosPublic.post('users', userInfo)
+                // console.log('userProfile Info updated')
                 reset();
                 Swal.fire({
                     position: "top-end",

@@ -1,7 +1,7 @@
 [
     {
         "productId": "E1001",
-        "userName": "John Doe",
+        "user": "John Doe",
         "email": "john.doe@example.com",
         "rating": 5,
         "likes": 10,
@@ -9,7 +9,7 @@
     },
     {
         "productId": "E1001",
-        "userName": "Jane Smith",
+        "user": "Jane Smith",
         "email": "jane.smith@example.com",
         "rating": 4,
         "likes": 7,
@@ -17,7 +17,7 @@
     },
     {
         "productId": "E1001",
-        "userName": "Alice Brown",
+        "user": "Alice Brown",
         "email": "alice.brown@example.com",
         "rating": 5,
         "likes": 12,
@@ -25,7 +25,7 @@
     },
     {
         "productId": "F1002",
-        "userName": "Emily Clark",
+        "user": "Emily Clark",
         "email": "emily.clark@example.com",
         "rating": 5,
         "likes": 9,
@@ -33,7 +33,7 @@
     },
     {
         "productId": "F1002",
-        "userName": "Sophia Johnson",
+        "user": "Sophia Johnson",
         "email": "sophia.johnson@example.com",
         "rating": 4,
         "likes": 8,
@@ -41,7 +41,7 @@
     },
     {
         "productId": "F1002",
-        "userName": "Liam Williams",
+        "user": "Liam Williams",
         "email": "liam.williams@example.com",
         "rating": 5,
         "likes": 11,
@@ -49,7 +49,7 @@
     },
     {
         "productId": "F2001",
-        "userName": "Olivia Martinez",
+        "user": "Olivia Martinez",
         "email": "olivia.martinez@example.com",
         "rating": 4,
         "likes": 5,
@@ -57,7 +57,7 @@
     },
     {
         "productId": "F2001",
-        "userName": "Ethan Davis",
+        "user": "Ethan Davis",
         "email": "ethan.davis@example.com",
         "rating": 3,
         "likes": 4,
@@ -65,7 +65,7 @@
     },
     {
         "productId": "F2001",
-        "userName": "Isabella Miller",
+        "user": "Isabella Miller",
         "email": "isabella.miller@example.com",
         "rating": 4,
         "likes": 6,
@@ -73,7 +73,7 @@
     },
     {
         "productId": "K1001",
-        "userName": "Michael Wilson",
+        "user": "Michael Wilson",
         "email": "michael.wilson@example.com",
         "rating": 5,
         "likes": 14,
@@ -81,7 +81,7 @@
     },
     {
         "productId": "K1001",
-        "userName": "Ava Moore",
+        "user": "Ava Moore",
         "email": "ava.moore@example.com",
         "rating": 4,
         "likes": 9,
@@ -89,7 +89,7 @@
     },
     {
         "productId": "K1001",
-        "userName": "William Taylor",
+        "user": "William Taylor",
         "email": "william.taylor@example.com",
         "rating": 5,
         "likes": 13,
@@ -97,7 +97,7 @@
     },
     {
         "productId": "E1002",
-        "userName": "Charlotte Anderson",
+        "user": "Charlotte Anderson",
         "email": "charlotte.anderson@example.com",
         "rating": 5,
         "likes": 15,
@@ -105,7 +105,7 @@
     },
     {
         "productId": "E1002",
-        "userName": "Henry Thomas",
+        "user": "Henry Thomas",
         "email": "henry.thomas@example.com",
         "rating": 4,
         "likes": 10,
@@ -113,7 +113,7 @@
     },
     {
         "productId": "E1002",
-        "userName": "Amelia Jackson",
+        "user": "Amelia Jackson",
         "email": "amelia.jackson@example.com",
         "rating": 5,
         "likes": 12,
@@ -121,7 +121,7 @@
     },
     {
         "productId": "F1003",
-        "userName": "James White",
+        "user": "James White",
         "email": "james.white@example.com",
         "rating": 4,
         "likes": 7,
@@ -129,7 +129,7 @@
     },
     {
         "productId": "F1003",
-        "userName": "Mia Harris",
+        "user": "Mia Harris",
         "email": "mia.harris@example.com",
         "rating": 5,
         "likes": 9,
@@ -137,7 +137,7 @@
     },
     {
         "productId": "F1003",
-        "userName": "Benjamin Martin",
+        "user": "Benjamin Martin",
         "email": "benjamin.martin@example.com",
         "rating": 4,
         "likes": 6,
@@ -145,7 +145,7 @@
     },
     {
         "productId": "F2002",
-        "userName": "Evelyn Thompson",
+        "user": "Evelyn Thompson",
         "email": "evelyn.thompson@example.com",
         "rating": 5,
         "likes": 11,
@@ -153,7 +153,7 @@
     },
     {
         "productId": "F2002",
-        "userName": "Alexander Garcia",
+        "user": "Alexander Garcia",
         "email": "alexander.garcia@example.com",
         "rating": 4,
         "likes": 8,
@@ -161,7 +161,7 @@
     },
     {
         "productId": "F2002",
-        "userName": "Harper Martinez",
+        "user": "Harper Martinez",
         "email": "harper.martinez@example.com",
         "rating": 5,
         "likes": 10,
@@ -169,7 +169,7 @@
     },
     {
         "productId": "K1002",
-        "userName": "Daniel Robinson",
+        "user": "Daniel Robinson",
         "email": "daniel.robinson@example.com",
         "rating": 4,
         "likes": 7,
@@ -177,7 +177,7 @@
     },
     {
         "productId": "K1002",
-        "userName": "Ella Lewis",
+        "user": "Ella Lewis",
         "email": "ella.lewis@example.com",
         "rating": 5,
         "likes": 12,
@@ -185,7 +185,7 @@
     },
     {
         "productId": "K1002",
-        "userName": "Noah Walker",
+        "user": "Noah Walker",
         "email": "noah.walker@example.com",
         "rating": 4,
         "likes": 8,
@@ -193,7 +193,7 @@
     },
     {
         "productId": "E1003",
-        "userName": "Grace Hall",
+        "user": "Grace Hall",
         "email": "grace.hall@example.com",
         "rating": 5,
         "likes": 14,
@@ -201,7 +201,7 @@
     },
     {
         "productId": "E1003",
-        "userName": "Lucas Allen",
+        "user": "Lucas Allen",
         "email": "lucas.allen@example.com",
         "rating": 4,
         "likes": 11,
@@ -209,7 +209,7 @@
     },
     {
         "productId": "E1003",
-        "userName": "Chloe Young",
+        "user": "Chloe Young",
         "email": "chloe.young@example.com",
         "rating": 5,
         "likes": 13,
@@ -217,7 +217,7 @@
     },
     {
         "productId": "F1004",
-        "userName": "Mason King",
+        "user": "Mason King",
         "email": "mason.king@example.com",
         "rating": 5,
         "likes": 12,
@@ -225,7 +225,7 @@
     },
     {
         "productId": "F1004",
-        "userName": "Avery Wright",
+        "user": "Avery Wright",
         "email": "avery.wright@example.com",
         "rating": 4,
         "likes": 9,
@@ -233,7 +233,7 @@
     },
     {
         "productId": "F1004",
-        "userName": "Ethan Lopez",
+        "user": "Ethan Lopez",
         "email": "ethan.lopez@example.com",
         "rating": 5,
         "likes": 11,

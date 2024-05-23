@@ -1,9 +1,13 @@
+
+import { useState } from "react";
 import useProducts from "../../../hooks/useProducts";
 import ProductCardInfo from "../../Shared/ProductCardInfo/ProductCardInfo";
-// import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-// import 'react-tabs/style/react-tabs.css';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
 
 const Featured = () => {
+    const [tabindex, setTabIndex] = useState(0);
+
     const [products] = useProducts();
     const electronics = products.filter(product => product.category === 'Electronics')
     const fashion = products.filter(product => product.category === 'Fashion')
@@ -23,11 +27,15 @@ const Featured = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-4 h-4 opacity-70"><path fillRule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clipRule="evenodd" /></svg>
                 </label>
                 <br />
-                <div role="tablist" className="tabs tabs-lifted">
-                    {/* Tab-1 */}
-                    <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Electronics" checked />
-                    <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
-                        {/* Product Map  */}
+
+                <Tabs defaultIndex={tabindex} onSelect={(index) => setTabIndex(index)}>
+                    <TabList>
+                        <Tab>Electronics</Tab>
+                        <Tab>Fashion</Tab>
+                        <Tab>Furniture</Tab>
+                        <Tab>Kitchen</Tab>
+                    </TabList>
+                    <TabPanel>
                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4" >
                         { 
                             electronics.map(product=><ProductCardInfo 
@@ -36,11 +44,8 @@ const Featured = () => {
                                 > </ProductCardInfo>)
                         }
                         </div>
-                    </div>
-                    {/* Tab-2 */}
-                    <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Fashion" />
-                    <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
-                        {/* Product Map  */}
+                    </TabPanel>
+                    <TabPanel>
                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4" >
                         { 
                             fashion.map(product=><ProductCardInfo 
@@ -49,11 +54,8 @@ const Featured = () => {
                                 > </ProductCardInfo>)
                         }
                         </div>
-                    </div>
-                    {/* Tab-3 */}
-                    <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Furniture" />
-                    <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
-                        {/* Product Map  */}
+                    </TabPanel>
+                    <TabPanel>
                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4" >
                         { 
                             furniture.map(product=><ProductCardInfo 
@@ -62,11 +64,8 @@ const Featured = () => {
                                 > </ProductCardInfo>)
                         }
                         </div>
-                    </div>
-                    {/* Tab-4 */}
-                    <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Kitchen" />
-                    <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
-                        {/* Product Map  */}
+                    </TabPanel>
+                    <TabPanel>
                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4" >
                         { 
                             kitchen.map(product=><ProductCardInfo 
@@ -75,8 +74,9 @@ const Featured = () => {
                                 > </ProductCardInfo>)
                         }
                         </div>
-                    </div>
-                </div>
+                    </TabPanel>
+                </Tabs>
+
             </div>
         </div>
     )

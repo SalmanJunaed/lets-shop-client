@@ -16,7 +16,7 @@ const Navbar = () => {
             <a className="font-bold hover:text-white"><Link to='/product'>Products</Link></a>
         </li>
         <li>
-            <a className="font-bold hover:text-white"><Link to='/product'>Dashboard</Link></a>
+            <a className="font-bold hover:text-white"><Link to='/dashboard'>Dashboard</Link></a>
         </li>
     </>
     return (

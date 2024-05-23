@@ -4,7 +4,7 @@ import useAuth from "./useAuth";
 
 // export const axiosSecure = axios.create({
 const axiosSecure = axios.create({
-    baseURL: 'https://asset-management-server-alpha.vercel.app'
+    baseURL: 'http://localhost:5000'
 })
 const useAxiosSecure = () => {
     const navigate = useNavigate();
