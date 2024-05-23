@@ -10,14 +10,23 @@ const Navbar = () => {
     }
     const navOptions = <>
         <li>
-            <a className="font-bold hover:text-white"><Link to='/'>Home</Link></a>
+            <div className="font-bold hover:text-white"><Link to='/'>Home</Link></div>
         </li>
         <li>
-            <a className="font-bold hover:text-white"><Link to='/product'>Products</Link></a>
+            <div className="font-bold hover:text-white"><Link to='/product'>Products</Link></div>
         </li>
-        <li>
-            <a className="font-bold hover:text-white"><Link to='/dashboard'>Dashboard</Link></a>
-        </li>
+        {/* <li>
+            <div className=" btn btn-warning font-bold hover:text-white"><Link to='/dashboard/userProfile'>Dashboard</Link></div>
+        </li> */}
+        {
+            user ? <>
+                <li>
+                <div className=" btn btn-warning font-bold hover:text-white"><Link to='/dashboard/userProfile'>Go To Dashboard</Link></div>
+                </li>
+            </>:<>
+                
+            </>
+        }
     </>
     return (
         <div>

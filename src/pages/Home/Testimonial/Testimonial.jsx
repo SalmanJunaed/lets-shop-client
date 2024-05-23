@@ -36,10 +36,10 @@ const Testimonial = () => {
                     className="mySwiper"
                 >
                     {reviews.map((review) => (
-                        <SwiperSlide key={review.productId}>
+                        <SwiperSlide key={review._id}>
                             <div className="text-center">
                                 <h3 className="text-2xl  my-4">
-                                    {review.userName}
+                                    {review.user}
                                 </h3>
                                 <Rating className="mx-auto"
                                     style={{ maxWidth: 180 }}
