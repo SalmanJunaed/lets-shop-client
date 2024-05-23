@@ -1,7 +1,9 @@
 
 import { useState } from "react";
+
 import useProducts from "../../../hooks/useProducts";
 import ProductCardInfo from "../../Shared/ProductCardInfo/ProductCardInfo";
+
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
@@ -9,10 +11,10 @@ const Featured = () => {
     const [tabindex, setTabIndex] = useState(0);
 
     const [products] = useProducts();
-    const electronics = products.filter(product => product.category === 'Electronics')
-    const fashion = products.filter(product => product.category === 'Fashion')
-    const furniture = products.filter(product => product.category === 'Furniture')
-    const kitchen = products.filter(product => product.category === 'Kitchen')
+    const electronics = products.filter(product => product.category === 'Electronics' && product.type === 'Featured')
+    const fashion = products.filter(product => product.category === 'Fashion' && product.type === 'Featured')
+    const furniture = products.filter(product => product.category === 'Furniture' && product.type === 'Featured')
+    const kitchen = products.filter(product => product.category === 'Kitchen' && product.type === 'Featured')
     return (
         <div className="py-4 pb-8">
             <div>
@@ -22,12 +24,13 @@ const Featured = () => {
             </div>
             <br />
             <div>
+                {/* Search bar */}
                 <label className="input input-bordered flex items-center gap-2 max-w-60">
                     <input type="text" className="grow " placeholder="Search" />
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-4 h-4 opacity-70"><path fillRule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clipRule="evenodd" /></svg>
                 </label>
                 <br />
-
+                {/* Tabs */}
                 <Tabs defaultIndex={tabindex} onSelect={(index) => setTabIndex(index)}>
                     <TabList>
                         <Tab>Electronics</Tab>
