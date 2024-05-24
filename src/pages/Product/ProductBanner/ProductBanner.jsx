@@ -23,7 +23,7 @@ const ProductBanner = () => {
                         "url(https://i.ibb.co/jwpXHj2/product-Banner.jpg)",
                 }}
             >
-                <div className="hero-overlay bg-opacity-60"></div>
+                <div className="hero-overlay"></div>
                 <div className="hero-content text-center text-neutral-content flex">
                     <div className=" flex-1"></div>
                     <div className="max-w-3xl lg:flex-1">
