@@ -7,12 +7,13 @@ import Product from "../pages/Product/Product";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import Dashboard from "../Layout/Dashboard";
-import Products from "../pages/Dashboard/Products/Products";
 import AddProducts from "../pages/Dashboard/AddProducts/AddProducts";
 import UserProfile from "../pages/Dashboard/UserProfile/UserProfile";
 import PrivateRoute from "./PrivateRoute";
 import UpdateProduct from "../pages/Dashboard/UpdateProduct";
 import Details from "../pages/Details/Details";
+import AllProducts from "../pages/Dashboard/AllProducts/AllProducts";
+import AllUserInfo from "../pages/Dashboard/AllUserInfo/AllUserInfo";
 
 export const router = createBrowserRouter([
     {
@@ -49,7 +50,7 @@ export const router = createBrowserRouter([
         children: [
             {
                 path: 'products',
-                element: <Products></Products>
+                element: <AllProducts></AllProducts>
             },
             {
                 path: 'addProducts',
@@ -63,7 +64,10 @@ export const router = createBrowserRouter([
                 path: 'userProfile',
                 element: <UserProfile></UserProfile>
             },
-            
+            {
+                path: 'allUserInfo',
+                element: <AllUserInfo></AllUserInfo>
+            },
 
         ]
     }

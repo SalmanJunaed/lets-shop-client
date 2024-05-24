@@ -4,6 +4,7 @@ import { Link, useLoaderData } from "react-router-dom";
 
 import { GrLike } from "react-icons/gr";
 import { GrDislike } from "react-icons/gr";
+// import { LightGallery } from "lightgallery/lightgallery";
 
 
 
@@ -26,10 +27,9 @@ const Details = () => {
             </div>
             <div className="min-h-screen bg-base-200 py-16">
                 <div className="flex flex-col lg:flex-row justify-evenly">
-
+                    {/* <LightGallery speed={500} plugins={}></LightGallery> */}
                     <img src={image} className="w-[35%] h-[35%] mx-auto rounded-lg shadow-2xl px-6 py-6" />
-
-                    
+                    {/* <img src={image} className="w-[35%] h-[35%] mx-auto rounded-lg shadow-2xl px-6 py-6" /> */}
                     <div className="max-w-xl flex-1 px-6">
                         <h1 className=" text-xl md:text-2xl font-bold pt-6">Product Name:{product_name}</h1>
                         <p className="py-1"><span className="font-bold">Price:</span> ${price}</p>
