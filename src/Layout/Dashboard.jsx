@@ -6,7 +6,7 @@ import { AiOutlineProduct } from "react-icons/ai";
 import { FaHome } from "react-icons/fa";
 import { ImProfile } from "react-icons/im";
 import { BsDatabaseAdd } from "react-icons/bs";
-import { GrDocumentUpdate } from "react-icons/gr";
+// import { GrDocumentUpdate } from "react-icons/gr";
 
 
 
@@ -39,9 +39,9 @@ const Dashboard = () => {
                     <li>
                         <NavLink to="/dashboard/addProducts"> <BsDatabaseAdd /> Add Products </NavLink>
                     </li>
-                    <li>
+                    {/* <li>
                         <NavLink to="/dashboard/updateProduct"><GrDocumentUpdate />Update Product</NavLink>
-                    </li>
+                    </li> */}
                     <li>
                         <NavLink to="/dashboard/userProfile"><ImProfile />User Profile</NavLink>
                     </li>

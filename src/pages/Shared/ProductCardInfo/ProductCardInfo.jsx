@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 
 const ProductCardInfo = ({product}) => {
-    const {image, product_name, price, rating, brand, category, specification} = product;
+    const {image, product_name, price, rating, brand, category, specification,_id} = product;
     return (
         <div>
             <div className="card w-96 bg-base-100 shadow-xl">
@@ -13,16 +13,16 @@ const ProductCardInfo = ({product}) => {
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title">{product_name}</h2>
-                    <p>Price: {price}</p>
-                    <p>Brand: {brand}</p>
-                    <p>Category: {category}</p>
-                    <p>Specification:{specification}</p>
+                    <p className="text-lg"><span className="font-bold">Price: </span>{price}</p>
+                    <p><span className="font-bold">Brand: </span>{brand}</p>
+                    <p><span className="font-bold">Category: </span>{category}</p>
+                    <p><span className="font-bold">Specification: </span>{specification}</p>
                     <Rating className="mx-auto"
                         style={{ maxWidth: 180 }}
                         value={rating}
                         readOnly/>
                     <div className="card-actions place-self-center">
-                        <Link to="/details">
+                        <Link to={`/details/${_id}`}>
                         <button className="btn btn-primary">Details</button>
                         </Link>
                     </div>

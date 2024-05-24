@@ -12,6 +12,7 @@ import AddProducts from "../pages/Dashboard/AddProducts/AddProducts";
 import UserProfile from "../pages/Dashboard/UserProfile/UserProfile";
 import PrivateRoute from "./PrivateRoute";
 import UpdateProduct from "../pages/Dashboard/UpdateProduct";
+import Details from "../pages/Details/Details";
 
 export const router = createBrowserRouter([
     {
@@ -21,25 +22,24 @@ export const router = createBrowserRouter([
         children: [
             {
                 path: '/',
-                element: <Home></Home>
+                element: <Home></Home>,
             },
             {
                 path: '/product',
-                element: <Product></Product>
+                element: <Product></Product>,
             },
             {
-                path: '/details',
-                element: <Home></Home>
+                path: '/details/:id',
+                element: <Details></Details>,
             },
             {
                 path: '/login',
-                element: <Login></Login>
+                element: <Login></Login>,
             },
             {
                 path: '/register',
-                element: <Register></Register>
+                element: <Register></Register>,
             },
-            
         ]
     },
     {
@@ -62,6 +62,7 @@ export const router = createBrowserRouter([
                 path: 'userProfile',
                 element: <UserProfile></UserProfile>
             },
+            
 
         ]
     }
