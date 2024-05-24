@@ -18,9 +18,9 @@ const ProductCardInfo = ({product}) => {
                     <p><span className="font-bold">Category: </span>{category}</p>
                     <p><span className="font-bold">Specification: </span>{specification}</p>
                     <Rating className="mx-auto"
-                        style={{ maxWidth: 180 }}
-                        value={rating}
-                        readOnly/>
+                    style={{ maxWidth: 180 }}
+                    value={rating}
+                    readOnly/>
                     <div className="card-actions place-self-center">
                         <Link to={`/details/${_id}`}>
                         <button className="btn btn-primary">Details</button>
