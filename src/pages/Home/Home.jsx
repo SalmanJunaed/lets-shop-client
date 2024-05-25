@@ -4,14 +4,14 @@ import CTA from "./CTA/CTA";
 import Category from "./Category/Category";
 import Contact from "./Contact/Contact";
 import Featured from "./Featured/Featured";
-import Marquee from "./Marquee/Marquee";
+import MarqueeSlide from "./MarqueeSlide/MarqueeSlide";
 import Service from "./Service/Service";
 import Testimonial from "./Testimonial/Testimonial";
 const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <Marquee></Marquee>
+            <MarqueeSlide></MarqueeSlide>
             <Service></Service>
             <Category></Category>
             <Featured></Featured>

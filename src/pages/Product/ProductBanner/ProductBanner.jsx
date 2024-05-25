@@ -1,3 +1,5 @@
+import { motion } from "framer-motion"
+
 const ProductBanner = () => {
     return (
         <div>
@@ -27,11 +29,37 @@ const ProductBanner = () => {
                 <div className="hero-content text-center text-neutral-content flex">
                     <div className=" flex-1"></div>
                     <div className="max-w-3xl lg:flex-1">
-                        <h1 className="mb-5 text-5xl font-bold">Explore Our <br /> Top Products</h1>
+                        <motion.h1 
+                            initial={{x: 100, opacity: 0 }}
+                            whileInView={{x: 0, opacity: 1 }}
+                            // viewport={{once: true}}
+                            transition={{
+                                delay:0.2, 
+                                x:{type:"spring", stiffness: 60 }, 
+                                opacity:{duration: 0.8 },
+                                ease:"easeIn",
+                                duration: 1, 
+                            }}
+                            className="mb-5 text-5xl font-bold"
+                        >
+                            Explore Our <br /> Top Products
+                        </motion.h1>
                         <br />
-                        <p className="mb-5 text-xl">
+                        <motion.p 
+                            initial={{x: -100, opacity: 0 }}
+                            whileInView={{x: 0, opacity: 1 }}
+                            // viewport={{once: true}}
+                            transition={{
+                                delay:0.2, 
+                                x:{type:"spring", stiffness: 60 }, 
+                                opacity:{duration: 0.8 },
+                                ease:"easeIn",
+                                duration: 1, 
+                            }}
+                            className="mb-5 text-xl"
+                        >
                             Discover the best products in electronics, fashion, kitchen, and furniture. Shop now for quality and value.
-                        </p>
+                        </motion.p>
                         <br />
                         <button className="btn btn-primary">Get Started</button>
                     </div>

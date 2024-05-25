@@ -4,6 +4,8 @@ import ProductCardInfo from "../../Shared/ProductCardInfo/ProductCardInfo"
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs"
 import "react-tabs/style/react-tabs.css"
 
+import { motion } from "framer-motion"
+
 const Featured = () => {
     const [tabindex, setTabIndex] = useState(0)
     const [products] = useProducts()
@@ -17,9 +19,10 @@ const Featured = () => {
             (product) => product.category === "Electronics"
         )
         setElectronics(electronics)
-        const fashion = products.filter((product) => {
+        const fashion = products.filter(
+            (product) =>
             product.category === "Fashion"
-        })
+        )
         setFashion(fashion)
         const furniture = products.filter(
             (product) => product.category === "Furniture"
@@ -78,11 +81,23 @@ const Featured = () => {
     }
 
     return (
-        <div className="py-4 pb-8">
+        <div className="py-4 pb-8 ">
             <div>
-                <h1 className="text-4xl font-bold text-center text-gray-400">
+                <motion.h1 
+                    initial={{y: -100, opacity: 0 }}
+                    whileInView={{y: 0, opacity: 1 }}
+                    // viewport={{once: true}}
+                    transition={{
+                        delay:0.2, 
+                        x:{type:"spring", stiffness: 60 }, 
+                        opacity:{duration: 0.8 },
+                        ease:"easeIn",
+                        duration: 1, 
+                    }}
+                    className="text-4xl font-bold text-center text-gray-400"
+                >
                     Our Featured Products
-                </h1>
+                </motion.h1>
             </div>
             <br />
             <div>
@@ -93,7 +108,6 @@ const Featured = () => {
                     </svg>
                 </label>
                 <br />
-
                 <Tabs defaultIndex={tabindex} onSelect={(index) => setTabIndex(index)} >
                     <TabList>
                         <Tab>Electronics</Tab>
